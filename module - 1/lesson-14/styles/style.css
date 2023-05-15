@@ -1,0 +1,26 @@
+*::after, *::before, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container{
+    min-width: 1440px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&family=Raleway:wght@400;500;600;700&family=Roboto:wght@400;700&family=Smooch+Sans&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+#intro{
+  height: 565px;
+  width: 100%;
+  background-image: url("../images/watch.png");
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: auto;
+}

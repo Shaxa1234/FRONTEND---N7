@@ -1,0 +1,12 @@
+.container{
+    width: 693px;
+    height: 598px;
+   background-color: aqua;
+}
+.header, a{
+    text-decoration: none;
+    word-spacing: 10px;
+}
+.header{
+    margin-left: 250px;
+}

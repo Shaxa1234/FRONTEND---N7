@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.sidebar {
+  width: 266px;
+  height: 100vh;
+  background: #f5f6ff;
+  padding: 42px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 12px;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 40px;
+}
+
+.logo-titles > h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #110b56;
+  margin-bottom: 8px;
+}
+
+.logo-titles > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.02em;
+  color: #b1b1c9;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-items {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  padding: 15px 27px;
+  border: 1px solid transparent;
+}
+
+.menu-items:hover svg > path {
+  fill: #110b56;
+  stroke: #f5f6ff;
+}
+
+.menu-items:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(71, 72, 111, 0.2) -23.64%,
+    rgba(71, 72, 111, 0) 87.49%
+  );
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid #f2f2fd;
+}
+
+.menu-items > p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  color: #79798b;
+}
+
+.menu-items:hover p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  color: #56549e;
+}
+.main {
+  width: 100%;
+  padding: 52px 56px 0 36px;
+  display: flex;
+  flex-direction: column;
+}

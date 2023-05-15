@@ -1,0 +1,25 @@
+*::after, *::before, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container{
+    max-width: 1440px;
+    padding: 0 24px;
+    margin: 0 auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;  
+}
+
+.nav a{
+   column-gap: 20px;
+}
+
+.nav img{
+    width: 106px;
+}

@@ -1,0 +1,822 @@
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 1440px;
+  padding: 0 70px;
+  padding-top: 40px;
+  margin: 0 auto;
+}
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/poppins/Poppins-Medium.ttf);
+}
+
+/* ------------------------HEADER---------------------------- */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left a {
+  width: 94px;
+  height: 39px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 39px;
+  color: #333333;
+  text-decoration: none;
+}
+
+.nav-center .home a {
+  width: 54px;
+  height: 27px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  color: #5fb848;
+  text-decoration: none;
+}
+
+.nav-center .about a {
+  width: 55px;
+  height: 27px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #787878;
+  text-decoration: none;
+}
+
+.nav-center {
+  display: flex;
+  column-gap: 40px;
+}
+.nav-center a {
+  width: 113px;
+  height: 27px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #2c3847;
+  text-decoration: none;
+}
+
+.nav-right .button {
+  width: 160px;
+  height: 54px;
+  background: #494949;
+  border-radius: 27px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.nav-right {
+  display: flex;
+  column-gap: 40px;
+}
+
+/* ------------------------HEADER END----------------------- */
+
+
+/* -----------------------------HERO-------------------------- */
+.hero-wrapper {
+  display: flex;
+}
+
+.hero-left {
+  margin-left: 70px;
+  z-index: 2;
+  margin-top: 90px;
+}
+
+.hero-left h1 {
+  width: 596px;
+  height: 285px;
+  font-family: "Sharp Sans No1";
+  font-style: normal;
+  font-weight: 770;
+  font-size: 76px;
+  line-height: 95px;
+  color: #181d19;
+  margin-top: 110px;
+}
+
+.hero-left span {
+  color: #5fb848;
+}
+
+.hero-right img {
+  margin-left: -220px;
+  z-index: 1;
+}
+.hero-left p {
+  width: 504px;
+  height: 102px;
+  font-family: "Sharp Sans No1";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 34px;
+  color: #181d19;
+  margin-top: 30px;
+}
+
+.hero-left button {
+  width: 200px;
+  height: 64px;
+  background: linear-gradient(180deg, #64bb47 0%, #2c9553 100%);
+  border-radius: 50px;
+  color: #ffffff;
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  border: none;
+  margin-top: 50px;
+}
+/* -----------------------HERO END---------------------- */
+
+
+
+/* -----------------------INTRO---------------------------- */
+.intro-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.intro-wrapper h2 {
+   width: 428px;
+    height: 68px;
+    font-family: 'Sharp Sans No1';
+    font-style: normal;
+    font-weight: 770;
+    font-size: 54px;
+    line-height: 68px;
+    text-align: center;
+    color: #151414;
+    
+}
+
+.intro-wrapper p{
+    width: 696px;
+    height: 30px;
+    font-family: 'Sharp Sans No1';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #3B433E;
+}
+
+/* -------------------------INTRO END---------------------- */
+
+
+
+/* -----------------------INTRO CARD----------------------- */
+
+.wrapper{
+    
+
+}
+.intro-card{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 256px;
+}
+
+.intro-card img{
+    margin-top: 68px;
+    align-items: center;
+}
+
+
+.intro-card h3{
+    width: 172px;
+    height: 35px;
+    font-family: 'Sharp Sans No1';
+    font-style: normal;
+    font-weight: 770;
+    font-size: 28px;
+    line-height: 35px;
+    color: #181D19;
+}
+
+.intro-card h3{
+    margin-top: 36px;
+    width: 172px;
+    height: 35px;
+    font-family: 'Sharp Sans No1';
+    font-style: normal;
+    font-weight: 770;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    color: #181D19;
+
+}
+.intro-card p{
+    margin-top: 18px;
+    text-align: center;
+}
+
+.intro-card-left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro-card-right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro-card-center{
+     display: flex;
+     align-items: center;
+     flex-direction: column; 
+} 
+
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    gap: 150px;
+}
+
+.number-left h1{
+    width: 97px;
+    height: 55px;
+    font-family: 'Sharp Sans No1';
+    font-style: normal;
+    font-weight: 780;
+    font-size: 44px;
+    line-height: 55px;
+    text-align: center;
+    color: #000000;
+}
+
+.number-center h1{
+    width: 97px;
+    height: 55px;
+    font-family: 'Sharp Sans No1';
+    font-style: normal;
+    font-weight: 780;
+    font-size: 44px;
+    line-height: 55px;
+    text-align: center;
+    color: #000000;
+}
+
+.number-right h1{
+    width: 97px;
+    height: 55px;
+    font-family: 'Sharp Sans No1';
+    font-style: normal;
+    font-weight: 780;
+    font-size: 44px;
+    line-height: 55px;
+    text-align: center;
+    color: #000000;
+}
+
+.number-left p{
+    margin-top: 15px;
+}
+
+.number-center p{
+    margin-top: 15px;
+}
+
+.number-right p{
+    margin-top: 15px;
+}
+
+
+/* -----------------------INTRO CARD END----------------------- */
+
+
+/* -------------------------MAIN---------------------------------- */
+
+.integro{
+    display: flex;
+}
+
+.food-left h2{
+    width: 231px;
+height: 68px;
+font-family: 'Sharp Sans No1';
+font-style: normal;
+font-weight: 770;
+font-size: 54px;
+line-height: 68px;
+color: #151414;
+}
+
+.food-left p{
+    width: 500px;
+    height: 238px;
+    font-family: 'Sharp Sans No1';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 34px;
+    color: #181D19;
+    margin-top: 30px    ;
+}
+
+.food-left button{
+    margin-top: 68px;
+    width: 210px;
+    height: 64px;
+    left: 135px;
+    top: 2241px;
+    background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+    border-radius: 50px;
+    border: navajowhite;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.food-left{
+    margin-top: 158px;
+}
+
+.food-center{
+   padding-left: 160px;
+   margin-top: 70px;
+}
+
+.food-right{
+    margin-top: 110px;
+}
+
+.imag1{
+    margin-top: 15px;
+}
+
+.vegatable{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.vegarable-right h2{
+    width: 428px;
+    height: 136px;
+    font-family: 'Sharp Sans No1';
+    font-style: normal;
+    font-weight: 770;
+    font-size: 54px;
+    line-height: 68px;
+    color: #151414;
+}
+
+.vegarable-right p{
+    width: 514px;
+    height: 170px;
+    font-family: 'Sharp Sans No1';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 22px;
+    line-height: 34px;
+    color: #181D19;
+    margin-top: 30px;
+}
+
+.vegarable-right button{
+    width: 210px;
+    height: 64px;
+    background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+    border-radius: 50px;
+    border: none;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.vegarable-right{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.vegatables2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cooked-left h2{
+    width: 366px;
+    height: 136px;
+    font-family: 'Sharp Sans No1';
+    font-style: normal;
+    font-weight: 770;
+    font-size: 54px;
+    line-height: 68px;  
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+.cooked-right{
+    margin-top: 100px;
+}
+
+.cooked-left text{
+    width: 500px;
+    height: 170px;
+    font-family: 'Sharp Sans No1';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 22px;
+    line-height: 34px;
+    color: #181D19;
+    margin-bottom: 50px;
+}
+
+
+
+.vegatables2 .icontexts {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+    
+}
+.vegatables2 .icontext {
+    display: flex;
+    flex-direction: row;
+}
+
+/* -------------------------MAIN  END---------------------------------- */
+
+/* -------------------------DISHES------------------------- */
+
+.dishes-special{
+    align-items: center;
+    text-align: center;
+}
+
+.dishes-special p{
+    margin-top: 15px;
+}
+
+.dishes-special h2{
+    
+font-family: 'Sharp Sans No1';
+font-style: normal;
+font-weight: 770;
+font-size: 54px;
+color: #151414;
+}
+
+
+.dishes-card{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 110px;
+  margin: 30px 0;
+}
+
+.dishes-special{
+    margin-top: 177px;
+}
+
+.dishes-card{
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dishes-card-left{
+    width: 356px;
+    height: 520px;
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 20px;
+}
+
+.dishes-card-left img{
+    margin-top: 50px;
+}
+
+.dishes-card-center img{
+    margin-top: 50px;
+}
+
+.dishes-card-right img{
+    margin-top: 50px;
+}
+ 
+.dishes-card-left h3{
+    margin-top: 30px;
+}
+
+
+.dishes-card-center h3{
+    margin-top: 30px;
+}
+
+.dishes-card-right h3{
+    margin-top: 30px;
+}
+
+.dishes-card-right p{
+    margin-top: 20px;
+}
+
+
+.dishes-card-center p{
+    margin-top: 20px;
+}
+
+.dishes-card-left p{
+    margin-top: 20px;
+}
+
+
+
+
+.dishes-card-center{
+    width: 356px;
+    height: 520px;
+    background: #FFFFFF;
+    box-shadow: -15px -50px 81px #FFFFFF, 10px 20px 70px rgba(71, 68, 68, 0.08);
+    border-radius: 20px;
+}
+
+.dishes-card-right{
+    width: 356px;
+    height: 520px;
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 20px;
+}
+
+.dishes-button{
+     width: 210px;
+    height: 64px;
+    background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+    border-radius: 50px;
+    color: #FFFFFF ;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    border: none;
+    align-items: center;
+    margin-left: 550px;
+    margin-top: 40px;
+}
+/* ------------------------------DISHES END-------------------------- */
+
+
+/* ----------------------------CLIENTS---------------------------- */
+
+
+
+#happyclients .wrapper {
+    width: 1440px;
+    height: 677px;
+    background: #fcfcfc;
+}
+
+#happyclients .wrapper h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#happyclients .wrapper .overallinfo {
+    width: 1053px;
+    height: 347px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+#happyclients .info {
+    width: 514px;
+    height: 347px;
+    background: #ffffff;
+    border: 2px solid #ffffff;
+    box-shadow: 3px 15px 35px rgba(120, 125, 173, 0.06);
+    border-radius: 8px;
+}
+
+#happyclients .info-top {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 25px;
+}
+#happyclients .info-top .infocontent {
+    padding-left: 37px;
+    padding-right: 126px;
+}
+
+#happyclients .arrows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 50px;
+}
+
+.info-top img{
+   padding-right: 30px;
+}
+
+#happyclients .wrapper{
+    padding-right: 300px;
+}
+
+.clients-clients{
+    text-align: center;
+    margin-left: 150px;
+    font-weight: 770;
+    font-size: 54px;
+    margin-top: 206px;
+}
+
+
+.overallinfo{
+    margin-top: 47px;
+}
+
+ 
+.textp{
+    text-align: center;
+}
+
+.arrow{
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 568px;
+}
+/* ----------------------------------CLIENTS END--------------------------- */
+
+
+.email-list h2{
+     width: 463px;
+height: 45px;
+font-family: 'Sharp Sans No1';
+font-style: normal;
+font-weight: 770;
+font-size: 36px;
+line-height: 45px;
+text-align: center;
+color: #151414;
+margin-left: 400px;
+}
+
+.email-list p{
+    margin-left: 455px;
+    margin-top: 15px    ;
+}
+
+.email-list input{
+    box-sizing: border-box;
+width: 330px;
+height: 60px;
+background: #FFFFFF;
+border: 1.5px solid #F5F5F5;
+border-radius: 165px;
+margin-left: 390px;
+margin-top: 60px;
+
+}
+
+
+.email-list button{
+    width: 170px;
+height: 60px;
+background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+border-radius: 50px;
+border: none;
+color: #FFFFFF;
+}
+
+
+
+/* ---------------------FOOTER=-------------------- */
+
+
+
+footer{
+  max-width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+footer {
+  background: #fcfcfc;
+}
+
+table {
+  height: 360px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px;
+  vertical-align: top;
+}
+.footer_title {
+  margin-top: 114px;
+  margin-bottom: 20px;
+  font-family: "Sharp Semibold";
+  font-size: 22px;
+  color: #2c3847;
+}
+.footer_logo {
+  margin-top: 122px;
+  margin-bottom: 34px;
+  font-family: "Sharp Bold";
+  font-size: 26px;
+  line-height: 32px;
+  color: #2c3847;
+}
+.footer_wrapper {
+  align-items: flex-start;
+  width: 686px;
+}
+.footer_desc {
+  max-width: 262px;
+  font-family: "Sharp Book";
+  font-size: 16px;
+  line-height: 20px;
+  color: #657582;
+}
+td a {
+  display: block;
+  cursor: pointer;
+  &:hover {
+    color: #5fb848;
+  }
+  margin-bottom: 12px;
+  font-family: "Sharp Book";
+  font-size: 16px;
+  line-height: 20px;
+  color: #657582;
+}
+
+.footer_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  background: linear-gradient(180deg, #64bb47 0%, #2c9553 100%);
+}
+
+.footer_bottom p {
+  font-family: "Sharp Book";
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+}

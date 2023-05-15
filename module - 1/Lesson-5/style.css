@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   position: absolute;
+width: 1280px;
+height: 879px;
+left: 130px;
+top: 30px;
+background: #0A0A0B;
+
+}
+
+.container{
+    max-width: 1280px;
+    height: auto;
+}
+
+.headmenyu{
+width: 47px;
+height: 22px;
+left: 41px;
+top: 29px;
+
+font-family: 'Exo';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+color: #FFFFFF;
+display: flex;
+
+justify-content: space-between;
+align-items: center;
+}
+
+.headmenyu > p{
+   margin-left: 5px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.home{
+    width: 44px;
+height: 22px;
+left: 683px;
+top: 37px;
+
+font-family: 'Exo';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+color: #4177DC;
+}
+
+.menu{
+ word-spacing: 40px;
+}
+
+.menu > a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.best__car{
+    position: absolute;
+width: 341px;
+height: 50px;
+left: 470px;
+top: 152px;
+font-family: 'Exo';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 140%;
+color: #FFFFFF;
+}
+
+.porsche{
+
+    position: absolute;
+width: 202px;
+height: 34px;
+left: 539px;
+top: 222px;
+font-family: 'Exo';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 140%;  
+color: #FFFFFF;
+}
+
+.electric{
+    position: absolute;
+width: 83px;
+height: 22px;
+left: 611px;
+top: 264px;
+font-family: 'Exo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #BABEC4;
+}
+
+.ima{
+   position: absolute;
+left: 45.67%;
+right: 16.67%;
+top: 30.3%;
+bottom: 4.17%;     
+}

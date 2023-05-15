@@ -1,0 +1,23 @@
+.chap, img{
+   width: 240px;
+}
+.chap{
+    border: 1px solid rgb(25, 24, 24);
+    border-radius: 10px;
+    background-color: rgb(158, 159, 165);
+    box-shadow: 20px 20px 20px;
+    margin-left: 70px;
+}
+.chap, p{
+    text-align: center;
+}
+.button{
+    background-color: rgb(241, 248, 248);
+    margin-left: 120px;
+    border-radius: 5px;
+    width: 70px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}

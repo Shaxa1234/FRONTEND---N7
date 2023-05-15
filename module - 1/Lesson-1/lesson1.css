@@ -1,0 +1,101 @@
+ .container{
+    background-color: rgb(185, 177, 177);
+ 
+ }
+ .box{
+    display: flex;
+    flex-direction: row;
+    margin: 25px 25px 25px;
+    
+}
+.bosh, a{
+    text-align: center;
+    margin: 40px 20px 20px;
+    color: red;
+}
+.bosh{
+    margin-top: 30;
+    color: black;
+}
+.chap, img{
+    width: 400px;
+    border-radius: 30px;
+}
+.chap{
+    margin-top: 40px;
+    
+}
+.chap, p{
+    font-style: italic;
+}
+.orta, img{
+    width: 400px;
+    border-radius: 30px;
+}
+.orta{
+    margin: 40px 120px 100px;
+    
+}
+.orta, p{
+    font-style: italic;
+}
+, p{
+    font-style: italic;
+}
+.ong, img{
+    width: 400px;
+    border-radius: 30px;
+}
+.ong{
+    margin: 40px 0px 100px;
+}
+.lev, img{
+    width: 400px;
+    border-radius: 30px;
+}
+.lev{
+    margin-top: 40px;
+}
+.cen, img{
+    width: 400px;
+    border-radius: 30px;
+}
+.cen{
+    margin: 40px 120px 100px;
+}
+.pra, img{
+    width: 400px;
+    border-radius: 30px;
+}
+.pra{
+    margin: 40px 0px 100px;
+}
+.fox{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 30px 200px;
+    margin-top: auto;
+}
+.vvv{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 30px 30px;
+}
+.ch, img{
+    width: 400px;
+}
+.ch{
+    margin-top: 40px;
+}
+.or, img{
+  width: 400px;
+}
+.or{
+    margin: 40px 120px 100px;
+}
+.on, img{
+    width: 400px;
+}
+.on{
+    margin: 40px 0px 100px;
+}

@@ -1,0 +1,45 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.wrapper{
+    width: 500px;
+    min-height: 800px;
+    box-shadow: 0 0 12px #3333;
+    margin: 50px auto;
+    padding: 40px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&family=Raleway:wght@400;500;600;700&family=Smooch+Sans&display=swap');
+
+.wrapper h2{
+    text-align: center;
+    font-weight: 500;
+    color: purple;
+}
+
+.line{
+    border-bottom: 1px dashed purple;
+    margin: 30px auto;
+}
+
+label{
+    width: 100%;
+    min-height: 50px;
+    display: block;
+}
+
+label p{
+    margin: 8px 0;
+}
+
+input{
+    width: 100%;
+    height: 45px;
+    padding-left: 20px;
+}
